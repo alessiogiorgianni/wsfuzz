@@ -165,7 +165,7 @@ if __name__ == '__main__':
         print('computing not found response ...')
         not_found_response = get_not_found_response()
     elif argv[1] == SQLMAP_FUZZING_MODE:
-        parser = ArgumentParser(usage='python3 wsfuzz.py path --ws "ws://ws.server.htb:9000/endpoint" --pkey version --lhost 127.0.0.1 --lport 6060')
+        parser = ArgumentParser(usage='python3 wsfuzz.py path --ws "ws://ws.server.htb:9000/endpoint" --pname version --lhost 127.0.0.1 --lport 6060')
         parser.add_argument("--pname",dest="param_name",action="store",type=str,required=True,help="Param name to fuzz")
     else:
         print('Unknown module. Exit!')
