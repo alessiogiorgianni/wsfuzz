@@ -1,5 +1,5 @@
 # wsfuzz
-Penetration testing proxy and fuzzer for websockets
+Websocket proxy and fuzzer
 
 # Usage
 
